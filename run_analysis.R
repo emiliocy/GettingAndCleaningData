@@ -5,7 +5,7 @@
   #https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
   #the directory below should have the train and test sub directories directories under it
   
-  setwd('C:\\Users\\emilio\\Documents\\dataset')
+  setwd('C:\\Users\\emilio\\Documents\\UCI HAR Dataset')
   
   #load data set features, set the columns 1 and 2 as id and label
   featureLabels <- read.table('features.txt', col.names = c('id','label'))
