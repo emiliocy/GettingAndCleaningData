@@ -33,6 +33,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 	1. https://github.com/emiliocy/GettingAndCleaningData	
 5. Edit the file using R-Studio or other text editor
 6. Edit line 8 and change it to the directory where you unzipped the data set on step 2 above
-	1. setwd('<UNZIP DIRECTORY>\\UCI HAR Dataset')
+	1. setwd('UNZIP DIRECTORY\\UCI HAR Dataset')
 7. Source the file run_analysis.R and run it.
-8. The output file will be located in the <UNZIP DIRECTORY>\\tidy.csv
+8. The output file will be located in the UNZIP DIRECTORY\\tidy.csv
