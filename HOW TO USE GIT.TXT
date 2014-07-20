@@ -1,2 +1,0 @@
-git 
-git push https://github.com/emiliocy/GettingAndCleaningData/tree/master
