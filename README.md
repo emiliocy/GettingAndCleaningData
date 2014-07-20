@@ -22,10 +22,10 @@ To run this process, you will need to download the data sets to be merge and the
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 2. Unzip the file, make sure the file is unziped preserving its directory structure
 3. Verify the following directories are created and contain files:
-	a) UCI HAR Dataset/test
-	b) UCI HAR Dataset/train
-	c) UCI HAR Dataset/activity_labels.txt
-	d) UCI HAR Dataset/features.txt
+	1) UCI HAR Dataset/test
+	2) UCI HAR Dataset/train
+	3) UCI HAR Dataset/activity_labels.txt
+	4) UCI HAR Dataset/features.txt
 4) Open the file run_analysis.R from the GitHub repository
 	https://github.com/emiliocy/GettingAndCleaningData	
 5) Edit the file using R-Studio or other text editor
