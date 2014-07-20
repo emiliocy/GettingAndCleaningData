@@ -1,6 +1,6 @@
 ###Getting and Cleaning Data
 ##Assignment
-##Project Code Book
+##Project Code Book 
 
 #How to run
 Please refer to the https://github.com/emiliocy/GettingAndCleaningData/README.md for details on 
