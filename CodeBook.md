@@ -18,6 +18,21 @@ This project takes a the data from a training and testing data sets. It merges t
 joins both the training and test data sets in a single data set. Only mean and standard deviation measures are used for this
 project. The final ~tidy~ data set contains proper column headings, row headings and values.
 
+##Program Variables Units:
+*Variables starting with 't' denote time
+*Variables starting with 'f' denote frequency 
+
+##Program Variables Used:
+* featureLabels - loads the features.txt file with columns id and label
+* selectedMeasures - loads only the std|mean features from the featureLabels variable
+* activityLabels - loads the activity_labels.txt file  with columns id and label
+* test.df - data frame for test data X_test.txt
+* training.df - data frame for training data X_train.txt
+* activityLabelsValues - value id's for the activity labels for the y_train.txt and y_test.txt
+* subjectValues - value of the subject_train.txt and subject_test.txt files
+* merged.df - merged data frame of the training.df and test.df data frames
+* tidy.dt - final tidy data frame with clean names and values along with clean format
+
 ##Process Description
 The following processes are executed against the data set in order to create the tidy data set for this project:
 
@@ -28,17 +43,6 @@ The following processes are executed against the data set in order to create the
 5. Read the activity_labels.txt data sets and store them in a variable called activityLabels
 6. Clean the column names to make them more readable
 
-##Program Variables Used:
-
-* featureLabels - loads the features.txt file with columns id and label
-* selectedMeasures - loads only the std|mean features from the featureLabels variable
-* activityLabels - loads the activity_labels.txt file  with columns id and label
-* test.df - data frame for test data X_test.txt
-* training.df - data frame for training data X_train.txt
-* activityLabelsValues - value id's for the activity labels for the y_train.txt and y_test.txt
-* subjectValues - value of the subject_train.txt and subject_test.txt files
-* merged.df - merged data frame of the training.df and test.df data frames
-* tidy.dt - final tidy data frame with clean names and values along with clean format
 
 ##Output Data Set Variables:
 ~~~
