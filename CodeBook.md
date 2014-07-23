@@ -19,8 +19,8 @@ joins both the training and test data sets in a single data set. Only mean and s
 project. The final ~tidy~ data set contains proper column headings, row headings and values.
 
 ##Program Variables Units:
-*Variables starting with 't' denote time
-*Variables starting with 'f' denote frequency 
+* Variables starting with 't' denote time
+* Variables starting with 'f' denote frequency 
 
 ##Program Variables Used:
 * featureLabels - loads the features.txt file with columns id and label
